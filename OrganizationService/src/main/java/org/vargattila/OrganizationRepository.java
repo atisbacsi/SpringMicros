@@ -8,4 +8,5 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 @RepositoryRestResource(collectionResourceRel = "organization", path = "org")
 public interface OrganizationRepository extends JpaRepository<Organization, String> {
+    //valami
 }
