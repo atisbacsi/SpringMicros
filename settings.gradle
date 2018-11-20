@@ -1,0 +1,9 @@
+
+
+rootProject.name = 'SpringMicroserv'
+
+include 'LicencingService', 'OrganizationService'
+include 'EurekaService', 'ConfigServer'
+
+findProject(':EurekaService')?.name = 'eureka-serv'
+

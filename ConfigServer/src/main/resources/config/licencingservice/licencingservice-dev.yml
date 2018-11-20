@@ -1,0 +1,2 @@
+tracer.property: "I AM THE DEV"
+management.endpoints.web.exposure.include: "*"
