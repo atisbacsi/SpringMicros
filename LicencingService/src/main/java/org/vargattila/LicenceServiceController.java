@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class LicenceServiceController {
     public LicenceServiceController(){
     }
-
-    @RequestMapping(value="{licenceId}", method = RequestMethod.GET)
-    public Licence getLicences(@PathVariable("licenceId") String licenceId, @PathVariable("organizationId") String organizationId){
-        return Licence.builder()
-                .id(licenceId)
-                .licenceType("Seat")
-                .productName("Telco")
-                .organizationId(organizationId)
-                .build();
-    }
+//
+//    @RequestMapping(value="{licenceId}", method = RequestMethod.GET)
+//    public License getLicences(@PathVariable("licenceId") String licenceId, @PathVariable("organizationId") String organizationId){
+//        return License.builder()
+//                .id(licenceId)
+//                .licenceType("Seat")
+//                .productName("Telco")
+//                .organizationId(organizationId)
+//                .build();
+//    }
 
 }

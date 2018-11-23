@@ -1,0 +1,1 @@
+insert into licenses(license_id, organization_id, product_name, license_type, license_max, license_allocated, comment) values (1,2,'product 1', 'Sima license', 12, 24, 'Comment');
