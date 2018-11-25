@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: 8081
 spring:
   profiles:
     active: native
@@ -7,4 +7,4 @@ spring:
     config:
       server:
         native:
-          searchLocations: file:///Users\xcg1892\Documents\Project\SpringMicroserv\ConfigServer\src\main\resources\config\licencingservice
+          searchLocations: classpath:/config/{application}/

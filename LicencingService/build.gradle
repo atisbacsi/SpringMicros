@@ -12,4 +12,5 @@ dependencies {
 	compile("org.springframework.boot:spring-boot-starter-data-rest")
 	compile("com.h2database:h2")
 	compile group: 'javax.xml.bind', name: 'jaxb-api'
+	compile("org.springframework.cloud:spring-cloud-config-client")
 }
