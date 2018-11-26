@@ -4,5 +4,17 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ConfigServer_main" target="1.8" />
+      <module name="ConfigServer_test" target="1.8" />
+      <module name="eureka-serv_main" target="1.8" />
+      <module name="eureka-serv_test" target="1.8" />
+      <module name="LicencingService_main" target="1.8" />
+      <module name="LicencingService_test" target="1.8" />
+      <module name="OrganizationService_main" target="1.8" />
+      <module name="OrganizationService_test" target="1.8" />
+      <module name="SpringMicroserv_main" target="1.8" />
+      <module name="SpringMicroserv_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -10,6 +10,6 @@ public class OrganizationService {
     RestTemplate restTemplate;
 
     public Organization getOrganizationById(String id){
-        return restTemplate.getForObject("http://localhost:8082/orgById/{id}", Organization.class, id);
+        return restTemplate.getForObject("http://organizationservice/orgById/{id}", Organization.class, id);
     }
 }

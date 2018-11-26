@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConfigServer/ConfigServer.iml" filepath="$PROJECT_DIR$/.idea/modules/ConfigServer/ConfigServer.iml" group="ConfigServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConfigServer/ConfigServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ConfigServer/ConfigServer_main.iml" group="ConfigServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConfigServer/ConfigServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ConfigServer/ConfigServer_test.iml" group="ConfigServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LicencingService/LicencingService.iml" filepath="$PROJECT_DIR$/.idea/modules/LicencingService/LicencingService.iml" group="LicencingService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LicencingService/LicencingService_main.iml" filepath="$PROJECT_DIR$/.idea/modules/LicencingService/LicencingService_main.iml" group="LicencingService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LicencingService/LicencingService_test.iml" filepath="$PROJECT_DIR$/.idea/modules/LicencingService/LicencingService_test.iml" group="LicencingService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OrganizationService.iml" filepath="$PROJECT_DIR$/.idea/modules/OrganizationService.iml" group="OrganizationService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OrganizationService/OrganizationService_main.iml" filepath="$PROJECT_DIR$/.idea/modules/OrganizationService/OrganizationService_main.iml" group="OrganizationService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OrganizationService/OrganizationService_test.iml" filepath="$PROJECT_DIR$/.idea/modules/OrganizationService/OrganizationService_test.iml" group="OrganizationService" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringMicros.iml" filepath="$PROJECT_DIR$/.idea/SpringMicros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMicroserv.iml" filepath="$PROJECT_DIR$/SpringMicroserv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMicroserv_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMicroserv_main.iml" group="SpringMicroserv" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMicroserv_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMicroserv_test.iml" group="SpringMicroserv" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv.iml" group="eureka-serv" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv_main.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv_main.iml" group="eureka-serv" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv_test.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv_test.iml" group="eureka-serv" />
     </modules>
   </component>
 </project>

@@ -6,4 +6,6 @@ dependencies {
     compile("com.h2database:h2")
     compile group: 'javax.xml.bind', name: 'jaxb-api'
     compile("org.springframework.cloud:spring-cloud-config-client")
+    compile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+
 }
