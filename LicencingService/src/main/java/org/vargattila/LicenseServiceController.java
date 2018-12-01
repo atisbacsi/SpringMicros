@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Optional;
+import java.util.concurrent.ThreadLocalRandom;
+import java.util.stream.IntStream;
 
 @RestController
 @RequestMapping(value="/v1/organizations/{organizationId}/licenses")
@@ -28,8 +30,9 @@ public class LicenseServiceController {
     public License getLicences(@PathVariable("licenseId") String licenseId, @PathVariable("organizationId") String organizationId){
 
         Optional<License> license1 = licenseRepository.findById(licenseId);
-        //Organization organization = organizationService.getOrganizationById(organizationId);
-        Organization organization = oragnizationFeignService.getById(organizationId);
+        Organization organization = organizationService.getOrganizationById(organizationId);
+        //Organization organization = oragnizationFeignService.getById(organizationId);
+
 
         License license = license1.orElse(null);
         license.setOrganizationId(organization.getId());
