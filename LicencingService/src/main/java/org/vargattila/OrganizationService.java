@@ -20,7 +20,18 @@ public class OrganizationService {
                             value = "1000"
                     )
             },
-            fallbackMethod = "getFallbackOrganization"
+            fallbackMethod = "getFallbackOrganization",
+            threadPoolKey = "organizationService",
+            threadPoolProperties = {
+                    @HystrixProperty(
+                            name = "coreSize",
+                            value = "30"
+                    ),
+                    @HystrixProperty(
+                            name = "maxQueueSize",
+                            value = "10"
+                    ),
+            }
     )
     public Organization getOrganizationById(String id) {
 
