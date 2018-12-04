@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.io.IOException;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Service
@@ -43,9 +44,11 @@ public class OrganizationService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
         return restTemplate.getForObject("http://organizationservice/orgById/{id}", Organization.class, id);
     }
-    private Organization getFallbackOrganization(String id){
+
+    private Organization getFallbackOrganization(String id) {
         Organization organization = new Organization();
         organization.setContactName("This is a fallback organization");
         return organization;
