@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/EurekaService" />
             <option value="$PROJECT_DIR$/LicencingService" />
             <option value="$PROJECT_DIR$/OrganizationService" />
+            <option value="$PROJECT_DIR$/ZuulProxy" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

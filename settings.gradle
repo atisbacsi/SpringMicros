@@ -6,4 +6,6 @@ include 'LicencingService', 'OrganizationService'
 include 'EurekaService', 'ConfigServer'
 
 findProject(':EurekaService')?.name = 'eureka-serv'
+include 'ZuulProxy'
+findProject(':ZuulProxy')?.name = 'zuul-proxy'
 

@@ -18,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv.iml" group="eureka-serv" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv_main.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv_main.iml" group="eureka-serv" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv_test.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv_test.iml" group="eureka-serv" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul-proxy.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul-proxy.iml" group="zuul-proxy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ZuulProxy/zuul-proxy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ZuulProxy/zuul-proxy_main.iml" group="zuul-proxy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ZuulProxy/zuul-proxy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ZuulProxy/zuul-proxy_test.iml" group="zuul-proxy" />
     </modules>
   </component>
 </project>

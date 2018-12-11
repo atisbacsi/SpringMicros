@@ -24,7 +24,4 @@ subprojects {
             url 'https://repo.spring.io/libs-milestone'
         }
     }
-
-
-
 }
