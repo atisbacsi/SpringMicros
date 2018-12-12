@@ -17,6 +17,8 @@ management:
     web:
       exposure:
         include: '*'
+    enabled-by-default: true
+
 #zuul:
 #  ignored-services: "*"
 #  prefix:  /api

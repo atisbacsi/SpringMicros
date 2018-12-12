@@ -42,14 +42,14 @@ public class OrganizationService {
         logger.info("Ez itt a correlationId:" + UserContextHolder.getContext().getCorrelationId());
 
 
-        try {
-            int anInt = ThreadLocalRandom.current().nextInt(0, 3);
-            if (anInt > 1) {
-                Thread.sleep(11000);
-            }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            int anInt = ThreadLocalRandom.current().nextInt(0, 3);
+//            if (anInt > 1) {
+//                Thread.sleep(11000);
+//            }
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
 
         return restTemplate.getForObject("http://organizationservice/orgById/{id}", Organization.class, id);
     }
