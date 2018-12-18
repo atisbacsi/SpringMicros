@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Optional;
-import java.util.concurrent.ThreadLocalRandom;
-import java.util.stream.IntStream;
 
 @RestController
 @RequestMapping(value="/v1/organizations/{organizationId}/licenses")
@@ -21,7 +19,7 @@ public class LicenseServiceController {
     OrganizationService organizationService;
 
     @Autowired
-    OragnizationFeignService oragnizationFeignService;
+    OrganizationFeignService oragnizationFeignService;
 
     public LicenseServiceController(){
     }

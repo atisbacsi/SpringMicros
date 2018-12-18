@@ -24,4 +24,10 @@ subprojects {
             url 'https://repo.spring.io/libs-milestone'
         }
     }
+    dependencies {
+
+        compile 'org.springframework.boot:spring-boot-starter-actuator'
+        compile('javax.activation:activation:1.1')
+        compile('org.glassfish.jaxb:jaxb-runtime:2.3.0')
+    }
 }

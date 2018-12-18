@@ -17,12 +17,12 @@ management:
     web:
       exposure:
         include: '*'
-#zuul:
+zuul:
 #  ignored-services: "*"
 #  prefix:  /api
-#  routes:
-#    organizationservice: /organization/**
-#    licensingservice: /licensing/**
+  routes:
+    organizationservice: /organization/**
+    licensingservice: /licensing/**
 #    authenticationservice: /auth/**
 #            #zuul.routes.licensestatic.path: /licensestatic/**
 #            #zuul.routes.licensestatic.url:  http://licenseservice-static:8081

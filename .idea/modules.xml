@@ -11,8 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/OrganizationService.iml" filepath="$PROJECT_DIR$/.idea/modules/OrganizationService.iml" group="OrganizationService" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/OrganizationService/OrganizationService_main.iml" filepath="$PROJECT_DIR$/.idea/modules/OrganizationService/OrganizationService_main.iml" group="OrganizationService" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/OrganizationService/OrganizationService_test.iml" filepath="$PROJECT_DIR$/.idea/modules/OrganizationService/OrganizationService_test.iml" group="OrganizationService" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/SpringMicros.iml" filepath="$PROJECT_DIR$/.idea/SpringMicros.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringMicroserv.iml" filepath="$PROJECT_DIR$/SpringMicroserv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMicroserv.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMicroserv.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMicroserv_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMicroserv_main.iml" group="SpringMicroserv" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMicroserv_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMicroserv_test.iml" group="SpringMicroserv" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaService/eureka-serv.iml" group="eureka-serv" />
